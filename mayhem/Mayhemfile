@@ -1,0 +1,6 @@
+project: humps
+target: humps-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_humps.py
+    libfuzzer: true
